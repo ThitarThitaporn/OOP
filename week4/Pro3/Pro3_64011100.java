@@ -1,3 +1,4 @@
+package Pro3;
 import java.util.Random;
 
 public class Pro3_64011100 {
