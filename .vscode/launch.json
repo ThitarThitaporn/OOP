@@ -9,9 +9,9 @@
         ""
       ],
       "stopAtEntry": false,
-      "cwd": "d:/Univer/Year1-2/OOP/week6/lab6-2",
+      "cwd": "d:/Univer/Year1-2/OOP/week8/Lab8-3",
       "environment": [],
-      "program": "d:/Univer/Year1-2/OOP/week6/lab6-2/build/Debug/outDebug",
+      "program": "d:/Univer/Year1-2/OOP/week8/Lab8-3/build/Debug/outDebug",
       "internalConsoleOptions": "openOnSessionStart",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
