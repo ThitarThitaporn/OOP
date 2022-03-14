@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 
 public class Pro3_64011100 {
 
