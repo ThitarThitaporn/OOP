@@ -9,7 +9,7 @@ public class App extends Application{
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        CustomClockPane clock = new CustomClockPane(((int) (Math.random() * 12)),(int) (Math.random() * 30), 0);
+        ClockPane clock = new ClockPane(((int) (Math.random() * 12)),(int) (Math.random() * 30), 0);
         clock.setSecondHandVisible(false);
         String time = clock.getHour() + ":" + clock.getMinute() + ":" + clock.getSecond();
         Label currentTimeLabel = new Label(time);

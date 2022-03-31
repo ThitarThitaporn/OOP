@@ -7,7 +7,7 @@ import javafx.scene.shape.Circle;
 import javafx.scene.shape.Line;
 import javafx.scene.text.Text;
 
-public class CustomClockPane extends Pane {
+public class ClockPane extends Pane {
      private int hour;
      private int minute;
      private int second;
@@ -15,11 +15,11 @@ public class CustomClockPane extends Pane {
      private boolean minuteHandVisible = true;
      private boolean secondHandVisible = true;
 
-     public CustomClockPane() {
+     public ClockPane() {
           setTime();
      }
 
-     public CustomClockPane(int hour, int minute, int second) {
+     public ClockPane(int hour, int minute, int second) {
           this.hour = hour;
           this.minute = minute;
           this.second = second;
