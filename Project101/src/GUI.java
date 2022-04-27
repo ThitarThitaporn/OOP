@@ -1,4 +1,3 @@
-
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.BorderFactory;
@@ -9,12 +8,12 @@ import javax.swing.JMenuItem;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
-public class GUI implements ActionListener {
+public class GUI  implements ActionListener {
     JFrame window;
     JTextArea textArea;
     JScrollPane scrollPane;
     JMenuBar menuBar;
-    JMenu menuFile, menuEdit;
+    JMenu menuFile;
     JMenuItem iNew, iOpen, iSave, iSaveAs, iExit;
     Function_File file = new Function_File(this);
 
@@ -48,8 +47,8 @@ public class GUI implements ActionListener {
         window.setJMenuBar(menuBar);
         menuFile = new JMenu("File");
         menuBar.add(menuFile);
-        menuEdit = new JMenu("Edit");
-        menuBar.add(menuEdit);
+        //menuEdit = new JMenu("Edit");
+        //menuBar.add(menuEdit);
     }
 
     public void createFileMenu() {
@@ -90,7 +89,8 @@ public class GUI implements ActionListener {
                 file.newFile();
                 break;
             case "Open":
-                file.open();
+                //update
+                file.open(window);
                 break;
             case "Save":
                 file.save();

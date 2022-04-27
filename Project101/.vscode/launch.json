@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TextFileReader",
+            "request": "launch",
+            "mainClass": "TextFileReader",
+            "projectName": "Project101_153e5ef1"
+        },
+        {
+            "type": "java",
             "name": "Launch GUI",
             "request": "launch",
             "mainClass": "GUI",

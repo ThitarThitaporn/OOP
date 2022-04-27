@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch NotepadButtonListener",
+            "request": "launch",
+            "mainClass": "NotepadButtonListener",
+            "projectName": "Project_42831761"
+        },
+        {
+            "type": "java",
+            "name": "Launch Notepad",
+            "request": "launch",
+            "mainClass": "Notepad",
+            "projectName": "Project_42831761"
+        },
+        {
+            "type": "java",
+            "name": "Launch notepad",
+            "request": "launch",
+            "mainClass": "notepad",
+            "projectName": "Project_42831761"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChangetoReadOnly",
+            "request": "launch",
+            "mainClass": "ChangetoReadOnly",
+            "projectName": "Project_42831761"
+        },
+        {
+            "type": "java",
             "name": "Launch App",
             "request": "launch",
             "mainClass": "App",
